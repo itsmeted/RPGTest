@@ -21,3 +21,5 @@ Actions are specified on the RPGTestConfiguration component on the RPGTestGame.
 
 Every action has a duration.  A duration of 0 for an action means it triggers immediately and then the
 speed delay is triggered to wait until another action is triggered.
+
+Only 100 actions are shown in the actions list in the game due to slowdown when the list gets too large... ideally this would be a recycle list instead.
