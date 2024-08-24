@@ -19,5 +19,5 @@ If Attack is less than the Defense then no health is subtracted
 
 Actions are specified on the RPGTestConfiguration component on the RPGTestGame.
 
-There are some hardcoded ranges for various things...
-Health range is from 0 to 100.
+Every action has a duration.  A duration of 0 for an action means it triggers immediately and then the
+speed delay is triggered to wait until another action is triggered.
