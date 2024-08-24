@@ -133,7 +133,7 @@ public class RPGTestAction
         }
 
         // don't allow attack to reach zero otherwise we might end up in a stalemate
-        targetAgent.Attack  = Mathf.Max(1.0f, targetAgent.Attack  + m_attackDelta);
+        targetAgent.Attack  = Mathf.Max(0.0f, targetAgent.Attack  + m_attackDelta);
 
         targetAgent.Defense = Mathf.Clamp(targetAgent.Defense + m_defenseDelta, 0.0f, 100.0f);
         targetAgent.Speed   = Mathf.Max(0, targetAgent.Speed   + m_speedDelta);
