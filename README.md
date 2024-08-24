@@ -9,8 +9,8 @@ update before starting the next action (actions don't trigger immediately one af
 Health range is from 0 to 100.
 
 The calculation for damage is:
-(sourceAgent.Attack - targetAgent.Defense) / 10.0f * strength of attack action
-if Attack is less than the Defense then no health is subtracted
+(sourceAgent.Attack - targetAgent.Defense) / 10.0f * strength of attack action.
+If Attack is less than the Defense then no health is subtracted
 
 - If sourceAgent Attack is 10, and targetAgent Defense is 20, then the attack will do nothing.
 - If sourceAgent Attack is 20, and targetAgent Defense is 20, then the attack will do nothing.
