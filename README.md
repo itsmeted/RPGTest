@@ -3,8 +3,9 @@
 Some assumptions here... we randomly choose actions both for enemies and player agents.
 There is no AI..
 
-Lower speed value actually means faster attacking.  It specifies how many game ticks to wait
-until attacking again.
+Lower speed value actually means faster attacking. It specifies how many game ticks to wait
+until attacking again.  A speed value of 0 still means one
+update before starting the next action (actions don't trigger immediately one after another).
 Health range is from 0 to 100.
 
 The calculation for damage is:
