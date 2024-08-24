@@ -4770,8 +4770,8 @@ MonoBehaviour:
   - m_name: Buff Attack
     m_offensive: 0
     m_healthDelta: 0
-    m_attackDelta: 0
-    m_defenseDelta: 2
+    m_attackDelta: 2
+    m_defenseDelta: 0
     m_speedDelta: 0
     m_duration: 5
   - m_name: Buff Defense
