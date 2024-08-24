@@ -1,6 +1,7 @@
 # RPGTest
 
 Some assumptions here... we randomly choose actions both for enemies and player agents.
+There is no AI..
 
 Lower speed value actually means faster attacking.  It specifies how many game ticks to wait
 until attacking again.
