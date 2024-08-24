@@ -23,3 +23,4 @@ Every action has a duration.  A duration of 0 for an action means it triggers im
 speed delay is triggered to wait until another action is triggered.
 
 Only 100 actions are shown in the actions list in the game due to slowdown when the list gets too large... ideally this would be a recycle list instead.
+I did not spend much time tuning this except to make sure that it finishes most of the time instead of neverending simulation.
